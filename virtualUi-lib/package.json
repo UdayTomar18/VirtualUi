@@ -1,0 +1,22 @@
+{
+  "name": "virtual-ui-library-uday",
+  "version": "1.0.12",
+  "description": "virtual ui react library",
+  "license": "ISC",
+  "author": "Uday",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  }
+}
